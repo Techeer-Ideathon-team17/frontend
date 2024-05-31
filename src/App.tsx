@@ -1,6 +1,7 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Layout from './pages/layout';
 import Main from './pages/Main';
+import ChatPg from './components/ChatPg';
 
 const router = createBrowserRouter([
   {
@@ -10,6 +11,10 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Main />,
+      },
+      {
+        path: 'chat',
+        element: <ChatPg />,
       },
     ],
   },

@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles/reset.css';
-import OnBoarding from './components/OnBoarding';
-import Finish from './components/Finish';
+import App from './App';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <OnBoarding />
+    <App />
   </React.StrictMode>,
 );
